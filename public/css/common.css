@@ -1,0 +1,12 @@
+#light-theme-btn, #dark-theme-btn
+{
+    position: absolute;
+    width: 2.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.bg-light-mode
+{
+    background-color: #da5b57;
+}
