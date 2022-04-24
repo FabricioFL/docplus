@@ -10,10 +10,17 @@
         <script src="{{asset('js/themes.js')}}" defer></script>
     </head>
     <body id="dynamic-theme">
-        <div id="dynamic-navbar">
-            <a href="#" id="dynamic-nav-title">Docplus</a>
-            <img class="cursor-pointer" src="{{asset('images/light-mode.png')}}" id="light-theme-btn" onclick="switchTheme()" title="Mudar para o tema claro">
-            <img class="cursor-pointer" src="{{asset('images/dark-mode.png')}}" id="dark-theme-btn" onclick="switchTheme()" title="Mudar para o tema escuro">
-        </div>
+        <header>
+            <nav id="dynamic-navbar">
+                <a href="#" id="dynamic-nav-title">Docplus</a>
+                <img class="cursor-pointer" src="{{asset('images/light-mode.png')}}" id="light-theme-btn" onclick="switchTheme()" title="Mudar para o tema claro">
+                <img class="cursor-pointer" src="{{asset('images/dark-mode.png')}}" id="dark-theme-btn" onclick="switchTheme()" title="Mudar para o tema escuro">
+            </nav>
+        </header>
+        <main>
+            <section>
+                //
+            </section>
+        </main>
     </body>
 </html>
